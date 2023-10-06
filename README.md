@@ -1,13 +1,13 @@
 # Finnhub Streaming Data Pipeline
 
-The project is a streaming data pipeline based on Finnhub.io API/websocket real-time trading data created for a sake of my master's thesis related to stream processing.
-It is designed with a purpose to showcase key aspects of streaming pipeline development & architecture, providing low latency, scalability & availability.
+The project is a streaming data pipeline based on Finnhub.io API/websocket real-time trading data created and related to stream processing.
+It is designed with the purpose of showcasing key aspects of streaming pipeline development & architecture, providing low latency, scalability, and availability.
 
 ## Architecture
 
 ![finnhub_streaming_data_pipeline_diagram drawio (4)](https://user-images.githubusercontent.com/75480707/218998119-12d514ef-8e10-40e7-a638-afaa728e6b4f.png)
 
-The diagram above provides a detailed insight into pipeline's architecture. 
+The diagram above provides a detailed insight into the pipeline's architecture. 
 
 All applications are containerized into **Docker** containers, which are orchestrated by **Kubernetes** - and its infrastructure is managed by **Terraform**.
 
